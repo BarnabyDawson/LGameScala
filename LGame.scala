@@ -6,12 +6,12 @@ import scala.collection.mutable.ArrayBuffer
 
 //The L Game is a simple game for two players played on a 4 by 4 board.
 //Each player has an L shaped piece and there are two number single square pieces.
-//This program
+//This code includes classes to represent pieces and board positions and a set to represent the collection of possible positions up to reflection and rotation.
 
 object LGame{
   val lShape = List(List(1,0,0),
-	                List(1,0,0),
-	    			List(1,1,0))
+	            List(1,0,0),
+	            List(1,1,0))
   //A reflection of a square matrix
   def ref(matrix : List[List[Int]]) : List[List[Int]] = {
     val size=matrix.size
