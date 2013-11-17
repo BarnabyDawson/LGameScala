@@ -1,3 +1,5 @@
+//Licenced under the GPL version 3.0. See accompanying text file.
+
 import java.util.Random
 import scala.io.Source._
 import scala.collection.mutable.Set
